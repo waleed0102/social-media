@@ -7,27 +7,37 @@
 
 # Database Tables
   - users
+
     Database table to store users data and has following attributes in table
 
     string   email
+    
     string   name
+    
     blob     profile_picture
 
     We will use above columns to store users data + devise columns for authentication.
   
   - posts
+
     Database table to store posts data and has following attributes in table
 
     string   content
+    
     integer  posted_by
+    
     blob     media
 
   - comments
+
     Database table to store comments data and has following attributes in table
 
     string   content
+    
     integer  commented_by
+    
     integer  post_id
+    
     blob     media
 
 # Controllers
